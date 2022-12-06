@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@
   }
   
   body {
-    background: #b9702b;
+    background: #eea15a;
     background-size: cover;
     height: 2800px;
     font-family: 'Oswald', sans-serif;
@@ -300,5 +301,14 @@ color: #fff;
   }
   footer .boxs:nth-child(4) {
       width: 100%;
+  }
+}
+
+@media(max-width: 950px) {
+  .main .main-header {
+      flex-direction: column;
+  }
+  .foto {
+    height: 100%;
   }
 }
